@@ -1,0 +1,140 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #ece8e1;
+}
+
+header {
+    height: 50px;
+    background-color: #ff5853;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titretop {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    object-fit: cover;
+    width: 80px;
+    margin: 2%;
+}
+
+.titretier {
+    color: white;
+    font-family: 'VALORANT', sans-serif;
+    font-weight: lighter;
+    margin-right: 15%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding: 0%;
+}
+
+.search {
+    border-radius: 30px;
+    width: 150px;
+    height: 25px;
+    border: none;
+    outline: none;
+}
+
+.barrederecherche {
+    position: relative;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 0.5%;
+    width: 150px;
+    border-radius: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.barrederecherche:focus .recherche,
+.barrederecherche:focus-visible .recherche,
+.barrederecherche:focus-within .recherche {
+    display: flex;
+}
+
+.recherche {
+    position: absolute;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    width: 100%;
+    max-height: 200px;
+    overflow: scroll;
+    border-radius: 10px;
+    display: none;
+}
+
+
+
+
+.recherche::-webkit-scrollbar {
+    display: none;
+}
+
+.recherche p {
+    margin: 2%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+.tier-list {
+    display: flex;
+}
+
+.tier-list-container {
+    margin-right: 20%;
+    margin-left: 20%;
+
+}
+
+
+.tier-list span {
+    display: inline-block;
+    padding: 0.5em;
+    background: #111;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tier-list.s {
+    background: #1a1a17;
+    border: solid 2px;
+}
+
+.tier-list.s span {
+    background: #ff5853;
+    border: solid 2px;
+}
+
+.draggable-element {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.stockimage{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    max-width: 800px;
+    height: 80px;
+    background-color:beige;
+}
